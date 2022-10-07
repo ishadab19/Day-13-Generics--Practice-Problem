@@ -24,11 +24,15 @@ public class MaximumNum<T> {
 		return max;
 
 	}
+	public static <E> void printMax(E num1, E num2, E num3, E num4, E max) {
+		System.out.println(max);
+	}
 
 	public static void main(String[] args) {
 		System.out.println("The max Number Among 4 String numbers is:-\n "+maximumaAmong4("Orange", "Dragonfruit", "Banana","mango"));
 		System.out.println("The max Number Among 4 Integer numbers is:-\n "+maximumaAmong4(14,22,27,55));
 		System.out.println("The max Number Among 4 Float numbers is:-\n "+maximumaAmong4(39.5f,96.98f,98.99f,77.6f));
+		
 	}
 
 
