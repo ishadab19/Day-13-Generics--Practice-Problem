@@ -2,6 +2,12 @@ package com.generics;
 
 public class MaximumNum<T> {
 	T num1, num2, num3;
+	public MaximumNum(T num1, T num2, T num3)
+	{
+		this.num1 = num1;
+		this.num2 = num2;
+		this.num3 = num3;
+	}
 
 	public static <T extends Comparable<T>> T maximumaAmong3(T num1, T num2, T num3) {
 
