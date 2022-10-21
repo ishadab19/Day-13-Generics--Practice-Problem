@@ -1,5 +1,5 @@
 package com.generics;
-
+ 
 public class MaximumNum<T> {
 	T num1, num2, num3, num4;
 	public MaximumNum(T num1, T num2, T num3, T num4)
